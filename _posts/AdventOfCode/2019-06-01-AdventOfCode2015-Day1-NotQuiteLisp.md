@@ -24,9 +24,9 @@ We want to know the final floor, the one on which Santa will be in the end. And 
 
 So if we know how many time Santa go up, or how many `(` there are, and down, or how many `)` there are, we won. And for that just using `CTRL-F` is enough to get the number of occurences of `(` and `)`.
 
-![](https://github.com/Xav83/Xav83.github.io/raw/master/res/Advent%20Of%20Code/2015/Day%201/openingParenthesis.png "Opened parenthesis search")
+![](https://github.com/Xav83/Xav83.github.io/raw/master/res/AdventOfCode/2015/Day1/openingParenthesis.png "Opened parenthesis search")
 
-![](https://github.com/Xav83/Xav83.github.io/raw/master/res/Advent%20Of%20Code/2015/Day%201/closingParenthesis.png "Closed parenthesis search")
+![](https://github.com/Xav83/Xav83.github.io/raw/master/res/AdventOfCode/2015/Day1/closingParenthesis.png "Closed parenthesis search")
 
 And voilà. Here you can have the solution by substracting the 2 number of parenthesis occurences without writting even a line of code by yourself, since somebody has written the `CTRL-F` functionnalities ^^.
 
