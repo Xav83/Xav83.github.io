@@ -1,8 +1,8 @@
-# Advent Of Code - NotQuiteLisp - Puzzle 1
+# Advent Of Code - Not Quite Lisp - Puzzle 1
 
 Hello there ! I'm Xavier Jouvenot and here is the first part of a long series on [Advent Of Code](https://adventofcode.com).
 
-For this first post, we will start with the first problem from the 1st december 2015, named "Not Quite Lisp".
+For this first post, we will start with the first problem from the 1st December 2015, named "Not Quite Lisp".
 The solution I will propose in c++, but the reasoning can be applied to other languages.
 
 ## The Problem
@@ -22,19 +22,19 @@ Let's analyse the problem a little.
 
 We want to know the final floor, the one on which Santa will be in the end. And that, is the result of all the going up one floor and going down one floor. The result can then be describe as `final Santa floor = (all the time Santa goes up) - (all the time Santa goes down)`.
 
-So if we know how many time Santa go up, or how many `(` there are, and down, or how many `)` there are, we won. And for that just using `CTRL-F` is enough to get the number of occurences of `(` and `)`.
+So if we know how many time Santa go up, or how many `(` there are, and down, or how many `)` there are, we won. And for that just using `CTRL-F` is enough to get the number of occurrences of `(` and `)`.
 
 ![](https://github.com/Xav83/Xav83.github.io/raw/master/res/Advent%20Of%20Code/2015/Day%201/openingParenthesis.png "Opened parenthesis search")
 
 ![](https://github.com/Xav83/Xav83.github.io/raw/master/res/Advent%20Of%20Code/2015/Day%201/closingParenthesis.png "Closed parenthesis search")
 
-And voilà. Here you can have the solution by substracting the 2 number of parenthesis occurences without writting even a line of code by yourself, since somebody has written the `CTRL-F` functionnalities ^^.
+And voilà. Here you can have the solution by subtracting the 2 number of parenthesis occurrences without writing even a line of code by yourself, since somebody has written the `CTRL-F` functionalities 😉.
 
 ### C++ Solution
 
 Even if we can found the solution without coding, we can do it, for the exercise.
 
-To find the solution, we can use some naive approch by iterating on the input while tracking the floor we are in, to ultimatly arrive to the solution. But, we can use the same approch we used in the no-code solution, by counting the number of occurence for each parenthesis.
+To find the solution, we can use some naive approach by iterating on the input while tracking the floor we are in, to ultimately arrive to the solution. But, we can use the same approach we used in the no-code solution, by counting the number of occurrences for each parenthesis.
 
 ```c++
 #include <algorithm>
@@ -46,7 +46,7 @@ const auto result = openParenthesisCount - closeParenthesisCount;
 
 Simple, but efficient 😃.
 
-This is not the only solution of course. Two other solutions I have in mind are the naive approch and the recursive one that I won't describe here.
+This is not the only solution of course. Two other solutions I have in mind are the naive approach and the recursive one that I won't describe here.
 
 ## Part 2
 
@@ -93,9 +93,9 @@ And that's basically all we need to solve this problem.
 ## Conclusion
 
 You can note that the solutions written in this post, don't include all the sources to make running programs, but only the interesting part of the sources to solve this problem.
-If you want to see the programs from end to end, you can go on my [Github account](https://github.com/Xav83/AdventOfCode/tree/master/2015/NotQuiteLisp), explore the full solution, add comments or ask questions if you want to.
+If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/AdventOfCode/tree/master/2015/NotQuiteLisp), explore the full solution, add comments or ask questions if you want to.
 
-Here is the list of std method that we have used, I can't encourage you enought to look at their definitions :
+Here is the list of std method that we have used, I can't encourage you enough to look at their definitions :
 
 - [std::find_if](https://en.cppreference.com/w/cpp/algorithm/find)
 - [std::distance](https://en.cppreference.com/w/cpp/iterator/distance)
