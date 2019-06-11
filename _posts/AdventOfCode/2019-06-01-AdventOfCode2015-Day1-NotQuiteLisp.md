@@ -10,7 +10,7 @@ The solution I will propose in c++, but the reasoning can be applied to other la
 The full version of this problem can be found directly on the [Advent of Code website](https://adventofcode.com/2015/day/1), I will only describe the essence of the problem here:
 
 Santa needs to find the floor on which he will let his presents, but he only have instructions with `(` and `)` which respectively indicate that he should go up one floor or go down one floor.
-Here are some exemples:
+Here are some examples:
 - `(((` results in floor `3`
 - `)))` results in floor `-3`
 - `(()))(` results in floor `0`
@@ -93,7 +93,7 @@ And that's basically all we need to solve this problem.
 ## Conclusion
 
 You can note that the solutions written in this post, don't include all the sources to make running programs, but only the interesting part of the sources to solve this problem.
-If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/AdventOfCode/tree/master/2015/NotQuiteLisp), explore the full solution, add comments or ask questions if you want to.
+If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/AdventOfCode/tree/master/2015/Day1), explore the full solution, add comments or ask questions if you want to.
 
 Here is the list of std method that we have used, I can't encourage you enough to look at their definitions :
 
