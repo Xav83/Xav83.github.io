@@ -80,4 +80,64 @@ const auto numberOfHousesVisited = std::distance(std::begin(santaPath), it);
 
 Note that, to be able to use those algorithms, we have to specify the operators `==` and `<` of the structure `Coordinate`.
 
-I encourage you to go look at the full solution used in this sample of code on my [Github](https://github.com/Xav83/AdventOfCode/tree/master/2015/Day3).
+I encourage you to go look at the full solution used in this sample of code on my [Github](https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3).
+
+## Part 2
+
+### Problem
+
+This problem is the same as the part one, except that now, there are two "delivery men", Santa and Robo-Santa.
+Both start at the same position and take turns moving based on instructions from the elf.
+We still have to found out **how many houses receive at least one present**.
+
+For example:
+- `^v` delivers presents to `3` houses, because Santa goes north, and then Robo-Santa goes south.
+
+### Solution
+
+Most of the source code is very similar to the part 1, so we will only focus on the differences.
+To start, we can integrate a common structure to Santa and Robo-Santa, that I called `DeliveryMan`.
+
+```c++
+struct DeliveryMan
+{
+    Coordinate position;
+    Path path;
+};
+
+DeliveryMan santa, roboSanta;
+```
+
+When collecting the instruction, we can switch between the delivery man receving the instruction with a ternary instruction.
+
+```c++
+DeliveryMan deliveryMan;
+
+deliveryMan = deliveryMan == &santa ? &roboSanta: &santa;
+```
+
+And finally, once we've sorted both Santa and Robo-Santa paths, we have to **merge** them before using std::unique.
+
+```c++
+    std::vector<Coordinate> mergedPath;
+    std::merge(std::begin(santa.path), std::end(santa.path), std::begin(roboSanta.path), std::end(roboSanta.path), std::back_inserter(mergedPath));
+```
+
+And that's it about the interesting point of this part. You can check the full solution of this code on my [Github](https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3).
+
+## Conclusion
+
+You can note that the solutions written in this post, don't include all the sources to make running programs, but only the interesting part of the sources to solve this problem.
+If you want to see the programs from end to end, you can go on my [GitHub account]https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3), explore the full solution, add comments or ask questions if you want to.
+
+Here is the list of std methods and containers that we have used, I can't encourage you enough to look at their definitions :
+
+- [std::vector](https://en.cppreference.com/w/cpp/container/vector)
+- [std::sort](https://en.cppreference.com/w/cpp/algorithm/sort)
+- [std::unique](https://en.cppreference.com/w/cpp/algorithm/unique)
+- [std::distance](https://en.cppreference.com/w/cpp/iterator/distance)
+- [std::merge](https://en.cppreference.com/w/cpp/algorithm/merge)
+- [std::back_inserter](https://en.cppreference.com/w/cpp/iterator/back_inserter)
+
+Thanks for you reading, hope you liked it 😃
+And until next part, have fun learning and growing.
