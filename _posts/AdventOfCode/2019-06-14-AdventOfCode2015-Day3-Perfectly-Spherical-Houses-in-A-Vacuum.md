@@ -35,7 +35,7 @@ Coordinate santaPosition;
 ```
 
 Now that we have Santa's location, we have to store the path that Santa goes on.
-The simpliest way to describe this path is a **list** of `Coordinates`.
+The simplest way to describe this path is a **list** of `Coordinates`.
 
 ```c++
 #include <vector>
@@ -80,7 +80,7 @@ const auto numberOfHousesVisited = std::distance(std::begin(santaPath), it);
 
 Note that, to be able to use those algorithms, we have to specify the operators `==` and `<` of the structure `Coordinate`.
 
-I encourage you to go look at the full solution used in this sample of code on my [Github](https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3).
+I encourage you to go look at the full solution used in this sample of code on my [GitHub](https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3).
 
 ## Part 2
 
@@ -108,7 +108,7 @@ struct DeliveryMan
 DeliveryMan santa, roboSanta;
 ```
 
-When collecting the instruction, we can switch between the delivery man receving the instruction with a ternary instruction.
+When collecting the instruction, we can switch between the delivery man receiving the instruction with a ternary instruction.
 
 ```c++
 DeliveryMan deliveryMan;
@@ -123,7 +123,7 @@ And finally, once we've sorted both Santa and Robo-Santa paths, we have to **mer
     std::merge(std::begin(santa.path), std::end(santa.path), std::begin(roboSanta.path), std::end(roboSanta.path), std::back_inserter(mergedPath));
 ```
 
-And that's it about the interesting point of this part. You can check the full solution of this code on my [Github](https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3).
+And that's it about the interesting point of this part. You can check the full solution of this code on my [GitHub](https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3).
 
 ## Conclusion
 
@@ -140,4 +140,5 @@ Here is the list of std methods and containers that we have used, I can't encour
 - [std::back_inserter](https://en.cppreference.com/w/cpp/iterator/back_inserter)
 
 Thanks for you reading, hope you liked it 😃
+
 And until next part, have fun learning and growing.
