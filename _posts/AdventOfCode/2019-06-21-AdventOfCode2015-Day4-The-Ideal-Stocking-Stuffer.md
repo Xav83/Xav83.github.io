@@ -2,7 +2,7 @@
 
 Hello ! I'm Xavier Jouvenot and here is the third part of a long series on [Advent Of Code](https://adventofcode.com). You can find the previous part [here](2019-06-14-AdventOfCode2015-Day3-Perfectly-Spherical-Houses-in-A-Vacuum.md)
 
-For this new post, we are going to solve the second problem from the 4th December 2015, named "The Ideal Stocking Stuffer".
+For this new post, we are going to solve the problem from the 4th December 2015, named "The Ideal Stocking Stuffer".
 The solution I will propose in C++, but the reasoning can be applied to other languages.
 
 ## Part 1

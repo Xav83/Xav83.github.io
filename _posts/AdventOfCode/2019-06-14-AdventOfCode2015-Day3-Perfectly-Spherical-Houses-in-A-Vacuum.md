@@ -2,7 +2,7 @@
 
 Hello ! I'm Xavier Jouvenot and here is the third part of a long series on [Advent Of Code](https://adventofcode.com). You can find the previous part [here](2019-06-07-AdventOfCode2015-Day2-I-Was-Told-There-Would-Be-No-Math.md)
 
-For this new post, we are going to solve the second problem from the 3rd December 2015, named "Perfectly Spherical Houses in a Vacuum".
+For this new post, we are going to solve the problem from the 3rd December 2015, named "Perfectly Spherical Houses in a Vacuum".
 The solution I will propose in C++, but the reasoning can be applied to other languages.
 
 ## Part 1
