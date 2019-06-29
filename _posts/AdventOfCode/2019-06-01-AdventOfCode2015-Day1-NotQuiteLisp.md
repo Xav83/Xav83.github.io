@@ -2,7 +2,7 @@
 
 Hello there ! I'm Xavier Jouvenot and here is the first part of a long series on [Advent Of Code](https://adventofcode.com).
 
-For this first post, we will start with the first problem from the 1st December 2015, named "Not Quite Lisp".
+For this first post, we will start with the problem from the 1st December 2015, named "Not Quite Lisp".
 The solution I will propose in c++, but the reasoning can be applied to other languages.
 
 ## The Problem

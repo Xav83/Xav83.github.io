@@ -2,7 +2,7 @@
 
 Hello ! I'm Xavier Jouvenot and here is the third part of a long series on [Advent Of Code](https://adventofcode.com). You can find the previous part [here](2019-06-07-AdventOfCode2015-Day2-I-Was-Told-There-Would-Be-No-Math.md)
 
-For this new post, we are going to solve the second problem from the 3rd December 2015, named "Perfectly Spherical Houses in a Vacuum".
+For this new post, we are going to solve the problem from the 3rd December 2015, named "Perfectly Spherical Houses in a Vacuum".
 The solution I will propose in C++, but the reasoning can be applied to other languages.
 
 ## Part 1
@@ -128,7 +128,7 @@ And that's it about the interesting point of this part. You can check the full s
 ## Conclusion
 
 You can note that the solutions written in this post, don't include all the sources to make running programs, but only the interesting part of the sources to solve this problem.
-If you want to see the programs from end to end, you can go on my [GitHub account]https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3), explore the full solution, add comments or ask questions if you want to.
+If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/AdventOfCode/tree/2015.03/2015/Day3), explore the full solution, add comments or ask questions if you want to.
 
 Here is the list of std methods and containers that we have used, I can't encourage you enough to look at their definitions :
 
