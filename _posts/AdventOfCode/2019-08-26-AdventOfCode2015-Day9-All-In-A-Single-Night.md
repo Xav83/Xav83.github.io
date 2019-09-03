@@ -1,6 +1,6 @@
 # Advent Of Code - All in a Single Night - Puzzle 9
 
-Hello ! I'm Xavier Jouvenot and here is the nineth part of a long series on [Advent Of Code](https://adventofcode.com). You can find the previous part [here](2019-08-19-AdventOfCode2015-Day8-Matchsticks.md)
+Hello ! I'm Xavier Jouvenot and here is the ninth part of a long series on [Advent Of Code](https://adventofcode.com). You can find the previous part [here](2019-08-19-AdventOfCode2015-Day8-Matchsticks.md)
 
 For this new post, we are going to solve the problem from the 9th December 2015, named "All in a Single Night".
 The solution I will propose in C++, but the reasoning can be applied to other languages.
