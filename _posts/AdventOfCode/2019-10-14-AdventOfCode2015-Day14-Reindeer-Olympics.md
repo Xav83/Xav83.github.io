@@ -1,6 +1,6 @@
 # Advent Of Code - Reindeer Olympics - Puzzle 14
 
-Hello ! I'm Xavier Jouvenot and here is the part fourteen of a long series on [Advent Of Code](https://adventofcode.com). You can find the previous part [here](2019-10-14-AdventOfCode2015-Day14-Reindeer-Olympics.md)
+Hello ! I'm Xavier Jouvenot and here is the part fourteen of a long series on [Advent Of Code](https://adventofcode.com). You can find the previous part [here](2019-10-07-AdventOfCode2015-Day13-Knights-of-the-Dinner-Table.md)
 
 For this new post, we are going to solve the problem from the 14th December 2015, named "Reindeer Olympics".
 The solution I will propose in C++, but the reasoning can be applied to other languages.
