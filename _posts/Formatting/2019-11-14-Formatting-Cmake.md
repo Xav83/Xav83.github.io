@@ -56,7 +56,7 @@ But, in most project, some files will be added, moved or removed, so we need a w
 To do so, a simple command line can do the trick by combining the command `find` and `cmake-format`, like that:
 
 ```bash
-find . -name '*.cmake' -or -name 'CMakeLists.txt' -exec cmake-format -i {}
+find . \( -name '*.cmake' -o -name 'CMakeLists.txt' \) -exec cmake-format -i {} \;
 ```
 
 This command will look through all the folder and sub-folder from your current position, and look for the files with the extension ".cmake" or for the `CMakeLists.txt` files. Then it will place all those files in place of the `{}` and run the command `cmake-format -i` with all the files.
@@ -78,7 +78,7 @@ To do so, you can create a [Makefile](https://gl.developpez.com/tutoriel/outil/m
 ```Makefile
 format:
 	set -f
-	find . -name '*.cmake' -or -name 'CMakeLists.txt' -exec cmake-format -i {} \;
+	find . \( -name '*.cmake' -o -name 'CMakeLists.txt' \) -exec cmake-format -i {} \;
 	set +f
 ```
 
