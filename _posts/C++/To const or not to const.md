@@ -24,7 +24,7 @@ It can also allow you to specify what are the input of a function by forcing the
 This may not seems a lot, but just like that, this rule will increases the readability and comprehensibility of code and makes working in teams and maintaining code simpler.
 Moreover, this rule can also help the compilers and the optimizers when reasoning about code and optimize it better. 💪
 
-Applying the `const-correctness` is also a good way to start defensive programming in a project. It's simple (only 4 characters to add in some places), and your code will start to make more sense, to keep more of the author intentions.
+Applying the `const-correctness` is also a good way to start defensive programming in a project. It's simple (only 5 characters to add in some places), and your code will start to make more sense, to keep more of the author intentions.
 
 For all of those reason, you should definitely adopt this rule.
 
