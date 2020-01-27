@@ -17,7 +17,7 @@ If this is not already the case for you, then, follow this [link](https://www.su
 
 At this point, you should be able to open Sublime Text without the terminal 😉
 
-So now, let's focus on the main goal, being able to call the command `subl` you the terminal.
+So now, let's focus on the main goal, being able to call the command `subl` from your the terminal.
 To do so, you must open the file `.bash_profile` which is normally in you `HOME` folder. To to so, you can type the command `open ~/.bash_profile`, for example.
 If the file doesn't exist, it is okay, we can create an empty one where we will add our instruction. 🙂
 
@@ -28,7 +28,7 @@ export PATH=$PATH:/Applications/Sublime\ Text.app/Contents/SharedSupport/bin
 
 If you haven't installed Sublime Text in you Applications folder, change the path accordingly to the location where you put it, and tell me why you did so in the comments, I am curious 😃
 
-Now close you opened terminal and reopen them, or simply run the command `source ~./bash_profile`, and you will be able to run the command `subl`. To make sure of it, you can run the command `subl -v` to display your version of the command line installed 😉
+Now close your opened terminal and reopen them, or simply run the command `source ~./bash_profile`, and you will be able to run the command `subl`. To make sure of it, you can run the command `subl -v` to display your version of the command line installed 😉
 
 ## Conclusion
 
