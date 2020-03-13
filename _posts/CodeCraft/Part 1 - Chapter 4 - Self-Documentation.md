@@ -31,7 +31,7 @@ Now that we have seen the advantages of self-documenting code, and that you are 
 - *Write small atomic functions*.
     As the author said: "One function, one action". By doing so, each function will be easier to understand. Coupled with a good naming, the function will be self-explanatory. And an atomic function will have small to no side-effects, which make it easier to understand too.
 
-- *Avoid Magic numbers*
+- [*Avoid Magic numbers*](https://10xlearner.com/2020/03/06/magic-numbers-and-how-to-deal-with-them-in-c/)
     Magic numbers are raw number in your code. Using well-named variable instead of raw number makes your code far more self-explanatory, by giving your more context instead of a raw number that could be anything.
 
 - *Make important code stands out and easy to read*
