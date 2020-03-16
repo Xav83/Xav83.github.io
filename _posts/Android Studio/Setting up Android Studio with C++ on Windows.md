@@ -45,7 +45,7 @@ All we need to do is to be able to run it.
 To do so, we first have to sync our project with Gradle Files by clicking on this icon ![](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android%20Studio%20Installation/04%20-%20Sync%20Project%20With%20Gradle%20Files%20Icon.png "Sync Project With Gradle Files Icon")
 
 At that point, either the synchronization is a success, or it is not.
-If it did fail, I suggest you to read this [article about how to set install NDK in Android Studio](TODO), to make your synchronization successful, and to come back after to finish to setup your project.
+If it did fail, I suggest you to read this [article about how to set install NDK in Android Studio](https://10xlearner.com/2020/03/16/how-to-set-up-ndk-in-android-studio/), to make your synchronization successful, and to come back after to finish to setup your project.
 
 So now that you have synchronize you project with Gradle, all we have left to do is to run the project on an emulator.
 And for that, we need to specify the device we want to emulate.
@@ -75,6 +75,6 @@ And until my next article, have an splendid day 😉
 
 ## Interesting links
 
-- [Setup NDK in Android Studio](TODO)
+- [Setup NDK in Android Studio](https://10xlearner.com/2020/03/16/how-to-set-up-ndk-in-android-studio/)
 - [How to modify your Android Sdk folder](https://chrisrisner.com/Changing-the-SDK-Path-with-Android-Studio)
 - [How to modify your Android emulators folder](https://www.mysysadmintips.com/windows/clients/761-move-android-studio-avd-folder-to-a-new-location)
