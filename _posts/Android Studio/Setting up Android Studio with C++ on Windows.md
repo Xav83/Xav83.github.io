@@ -78,3 +78,4 @@ And until my next article, have an splendid day 😉
 - [Setup NDK in Android Studio](https://10xlearner.com/2020/03/16/how-to-set-up-ndk-in-android-studio/)
 - [How to modify your Android Sdk folder](https://chrisrisner.com/Changing-the-SDK-Path-with-Android-Studio)
 - [How to modify your Android emulators folder](https://www.mysysadmintips.com/windows/clients/761-move-android-studio-avd-folder-to-a-new-location)
+- [GitHub project](https://github.com/Xav83/TheModernCppChallenge_AndroidStudio/tree/helloWorld)
