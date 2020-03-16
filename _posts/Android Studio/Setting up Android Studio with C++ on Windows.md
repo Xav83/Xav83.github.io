@@ -10,7 +10,7 @@ I will only talk about the Windows installation, as I personally only have a Win
 
 ### Via the website
 
-To download Android Studio, all you have to do is go to the [Android Studio website](https://developer.android.com/studio) and clic on "Download Android Studio".
+To download Android Studio, all you have to do is go to the [Android Studio website](https://developer.android.com/studio) and click on "Download Android Studio".
 Once downloaded, run the installer and select the the setup and the theme that you want.
 Personally, I selected a standard setup and the dark theme.
 
