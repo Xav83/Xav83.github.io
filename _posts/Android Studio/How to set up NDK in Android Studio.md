@@ -1,7 +1,7 @@
 # How to set up NDK in Android Studio ?
 
 Hi dear reader, I'm Xavier Jouvenot and in this article, we are going to talk about how to set up NDK in Android Studio.
-This is directly related to the blog post about "[Setting up Android Studio with C++ on Windows](TODO)", since this is a problem I faced when installing Android Studio on my machine
+This is directly related to the blog post about "[Setting up Android Studio with C++ on Windows](https://10xlearner.com/2020/03/16/setting-up-android-studio-with-c-on-windows/)", since this is a problem I faced when installing Android Studio on my machine
 
 ## A little bit of context
 
@@ -37,6 +37,6 @@ And until my next article, have an splendid day 😉
 
 ## Interesting links
 
-- [Setting up Android Studio with C++ on Windows](TODO)
+- [Setting up Android Studio with C++ on Windows](https://10xlearner.com/2020/03/16/setting-up-android-studio-with-c-on-windows/)
 - [How to modify your Android Sdk folder](https://chrisrisner.com/Changing-the-SDK-Path-with-Android-Studio)
 - [How to modify your Android emulators folder](https://www.mysysadmintips.com/windows/clients/761-move-android-studio-avd-folder-to-a-new-location)
