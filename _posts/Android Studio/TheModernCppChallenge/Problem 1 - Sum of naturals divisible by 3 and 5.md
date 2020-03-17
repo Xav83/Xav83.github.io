@@ -222,3 +222,4 @@ And until my next article, have an splendid day 😉
 - [constexpr documentation](https://en.cppreference.com/w/cpp/language/constexpr)
 - [TextView documentation](https://developer.android.com/reference/android/widget/TextView)
 - [EditText documentation](https://developer.android.com/reference/android/widget/EditText)
+- [GitHub full solution](https://github.com/Xav83/TheModernCppChallenge_AndroidStudio/releases/tag/v0.0.1_FirstProblem)
