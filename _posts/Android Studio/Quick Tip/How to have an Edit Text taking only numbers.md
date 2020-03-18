@@ -6,7 +6,7 @@ _Self promotion_: You can find other articles on Android development on my [webs
 
 ## Numbers only by default
 
-To make sure that a user only enter numbers in an `EditText`, there are several solution.
+To make sure that a user only enter numbers in an `EditText`, there are several solutions.
 And the first one we are going to see is to specify that the `EditText` should only take numbers by default.
 
 To do so, we are going to modify the `EditText` XML definition, and add one attribute to it.

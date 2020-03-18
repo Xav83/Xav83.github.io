@@ -6,7 +6,7 @@ _Self promotion_: You can find other articles on Android development on my [webs
 
 ## Bold or Italic by default
 
-To transform a `TextView` text into a bold or an italic text, there are several solution.
+To transform a `TextView` text into a bold or an italic text, there are several solutions.
 And the first one we are going to see is how to make it bold or italic by default.
 
 To do so, we are going to modify the `TextView` XML definition, and add one attribute to it.
