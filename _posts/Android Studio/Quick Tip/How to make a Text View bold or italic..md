@@ -46,4 +46,5 @@ And until my next article, have an splendid day 😉
 
 - [android:textStyle documentation](https://developer.android.com/reference/android/widget/TextView#attr_android:textStyle)
 - [setTypeface documentation](https://developer.android.com/reference/android/widget/TextView#setTypeface(android.graphics.Typeface,%20int))
+- [Typeface documentation](https://developer.android.com/reference/android/graphics/Typeface)
 - [10xlearner website](www.10xlearner.com)
