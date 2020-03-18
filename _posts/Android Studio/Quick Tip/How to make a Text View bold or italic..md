@@ -31,7 +31,7 @@ But if you want to modify the style of a `TextView` while the program is running
 Here is how it looks like:
 
 ```java
-TextView tv = findViewById(R.id.result);
+TextView tv = findViewById(R.id.my_text_view_id);
 tv.setTypeface(tv.getTypeface(), Typeface.ITALIC);
 ```
 
