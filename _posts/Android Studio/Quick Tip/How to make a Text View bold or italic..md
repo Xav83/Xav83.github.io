@@ -31,7 +31,7 @@ But if you want to modify the style of a `TextView` while the program is running
 Here is how it looks like:
 
 ```java
-TextView tv = findViewById(R.id.result);
+TextView tv = findViewById(R.id.my_text_view_id);
 tv.setTypeface(tv.getTypeface(), Typeface.ITALIC);
 ```
 
@@ -46,4 +46,5 @@ And until my next article, have an splendid day 😉
 
 - [android:textStyle documentation](https://developer.android.com/reference/android/widget/TextView#attr_android:textStyle)
 - [setTypeface documentation](https://developer.android.com/reference/android/widget/TextView#setTypeface(android.graphics.Typeface,%20int))
+- [Typeface documentation](https://developer.android.com/reference/android/graphics/Typeface)
 - [10xlearner website](www.10xlearner.com)
