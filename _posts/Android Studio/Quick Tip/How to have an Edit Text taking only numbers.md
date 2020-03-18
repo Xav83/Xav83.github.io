@@ -1,12 +1,12 @@
 # Quick Tip - How to have an EditText which takes only numbers ?
 
-Hello ! I'm Xavier Jouvenot and in this small post, I am going to explain how to change `TextView` into a bold or italic.
+Hello ! I'm Xavier Jouvenot and in this small post, I am going to explain how to create an EditText which takes only numbers.
 
 _Self promotion_: You can find other articles on Android development on my [website](www.10xlearner.com) 😉
 
 ## Numbers only by default
 
-To make sure that a user only enter numbers in an `EditText`, there are several solution.
+To make sure that a user only enter numbers in an `EditText`, there are several solutions.
 And the first one we are going to see is to specify that the `EditText` should only take numbers by default.
 
 To do so, we are going to modify the `EditText` XML definition, and add one attribute to it.
