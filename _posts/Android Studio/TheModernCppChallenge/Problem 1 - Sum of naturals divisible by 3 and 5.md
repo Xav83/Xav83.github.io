@@ -205,6 +205,9 @@ tv.setText("Result: " + Sum3And5Multiples(limit));
 ```
 
 And voilà, we have link everything into a program that solves the first problem of [The Modern C++ Challenge](https://amzn.to/2QdYmvA).
+Personally, I have added some `TextView` to give more information to the user. Here is how it looks:
+
+![](https://github.com/Xav83/Xav83.github.io/raw/master/res/TheModerCppChallenge/Problem%20001.png "Final Application")
 
 ## Conclusion
 
