@@ -32,7 +32,7 @@ In order to achieve this goal, we are going to need to do two things:
 
 To create a new Activity, all you need to do is right click on your app folder architecture and go to `Empty Activity` like below:
 
-![](https://github.com/Xav83/Xav83.github.io/raw/master/res/TheModerCppChallenge/New%20Activity.png "New Empty Activity")
+![](https://github.com/Xav83/Xav83.github.io/raw/master/res/TheModernCppChallenge/New%20Activity.png "New Empty Activity")
 
 Then, specify the name of your new Activity (I named mine `Problem_2`), and click on `Finish` to have your new Activity created.
 
@@ -167,7 +167,7 @@ If you want to see the programs from end to end, you can go on my [GitHub accoun
 Thank you all for reading this article,
 And until my next article, have an splendid day 😉
 
-![](https://github.com/Xav83/Xav83.github.io/raw/master/res/TheModerCppChallenge/Problem%20002.png "Final Application")
+![](https://github.com/Xav83/Xav83.github.io/raw/master/res/TheModernCppChallenge/Problem%20002.png "Final Application")
 
 ## Interesting links
 
