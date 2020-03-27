@@ -19,7 +19,7 @@ Moreover, if you want to support several languages and adapt your application ti
 
 By default, your application name can be found in the `strings.xml` file of your resource folder
 
-![](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android%20Studio%20Installation/String%20Resouces%20file.png "String Resource File")
+![](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android%20Studio/String%20Resouces%20file.png "String Resource File")
 
 In this file, you will find a line looking like : `<string name="app_name">MyApplicationName</string>`
 
