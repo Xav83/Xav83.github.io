@@ -40,7 +40,7 @@ In this sample of code, you can replace `ITALIC` by `BOLD`, `NORMAL` or `BOLD_IT
 --------------
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

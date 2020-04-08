@@ -33,7 +33,7 @@ Now, you and I know how to install whatever NDK package we may need in the futur
 I hope this post helped you a little in your Android Studio journey. 🙂
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

@@ -102,4 +102,4 @@ And if you are using C++, then use the C++ way to do so, it will help you to mai
 My point is, if you want to integrate defensive programming (and you should), then, you will need to check the limits of your type, and now, you know how to do it in C++. 😄
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

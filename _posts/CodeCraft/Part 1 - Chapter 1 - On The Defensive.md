@@ -92,4 +92,4 @@ Defensive programming is a really good concept and I like that the author starts
 We should all use defensive programming (and offensive programming), and being even a little more defensive about your code will make it safer for everyone.
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

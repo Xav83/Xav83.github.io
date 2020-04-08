@@ -42,7 +42,7 @@ If you want to know what other option you can pass to `setRawInputType`, I encou
 --------------
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

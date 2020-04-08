@@ -44,4 +44,4 @@ Not only adding guard make sure that the bug won't happen, but it reinforce the 
 Bad programmer only fix bugs. Good programmer make sure that they won't happen again. 😉
 
 Thank you all for reading this article !
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

@@ -66,4 +66,4 @@ I hope you are know convinced of the importance of using good naming in your cod
 
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

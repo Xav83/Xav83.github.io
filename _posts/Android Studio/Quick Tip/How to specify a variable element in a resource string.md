@@ -33,7 +33,7 @@ In the end, you can have a line in your resources file looking like:
 --------------
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

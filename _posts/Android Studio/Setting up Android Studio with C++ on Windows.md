@@ -71,7 +71,7 @@ I hope this post will help you a little in your installation and your first step
 
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

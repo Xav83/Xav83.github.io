@@ -31,7 +31,7 @@ Indeed, you can either use `@string/app_name` to use your application name in th
 --------------
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

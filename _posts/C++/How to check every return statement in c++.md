@@ -58,4 +58,4 @@ And this is exactly what we have seen with this article. Even if the solution gi
 
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

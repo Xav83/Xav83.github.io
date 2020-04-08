@@ -86,7 +86,7 @@ If you have any other, please tell me in the comments 😉
 Surely you will have a code with a lot of *const* all over the place, but it will only reflect the logic of your code and the intention of developers try to communicate to you their intention to have a safe and persistent code.
 
 Thank you for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Extra resources
 

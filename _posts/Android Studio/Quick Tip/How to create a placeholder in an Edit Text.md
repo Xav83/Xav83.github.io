@@ -41,7 +41,7 @@ Since the method `setHint` takes an integer as a parameter, you should definitel
 --------------
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 
