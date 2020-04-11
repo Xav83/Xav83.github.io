@@ -110,7 +110,7 @@ And until my next article, have a splendid day 😉
 ## Interesting links
 
 - [The Modern C++ Challenge](https://amzn.to/2QdYmvA)
-- [Github release](https://github.com/Xav83/TheModernCppChallenge_AndroidStudio/tree/v0.0.2_SecondProblem)
+- [Github release](https://github.com/Xav83/TheModernCppChallenge_AndroidStudio/tree/v0.0.3_ThirdProblem)
 - [std::accumulate documentation](https://en.cppreference.com/w/cpp/algorithm/accumulate)
 - [std::lcm documentation](https://en.cppreference.com/w/cpp/numeric/lcm)
 - [java Collection::stream documentaion](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#stream--)
