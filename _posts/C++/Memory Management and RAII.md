@@ -121,4 +121,4 @@ If I have to resume the point of this article in 4 words, it would be "Please, u
 More seriously, every programmer should have a notion of how memory is managed by the language he uses, so that we would understand what is going when the program has a problem with memory management. And more especially C++ developer, since all those tools, the smart pointers are available to us, we should definitely use the one that match perfectly our needs in each situation.
 
 Thank you all for reading this article ! If you want more information, I recommend you with the talk of Herb Sutter named ["Leak Freedom in C++... By Default"](https://youtu.be/JfmTagWcqoE)
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

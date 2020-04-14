@@ -70,4 +70,4 @@ But I hope now you will start to make your code more self-documenting, for you a
 
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

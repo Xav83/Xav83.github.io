@@ -91,4 +91,4 @@ And more importantly, that our aim should always be to write [self documenting c
 Comments can be a huge advantage when use correctly but can also mislead you or become a nightmare to maintain, so be careful when using them.
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

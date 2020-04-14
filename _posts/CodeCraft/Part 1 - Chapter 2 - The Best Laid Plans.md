@@ -100,4 +100,4 @@ Here are two links about formatting: [Formatting Cpp, C, Javascript and other st
 I hope this article will help you like coding standard a little more, and maybe making you adopt one or several depending of your projects 😉
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

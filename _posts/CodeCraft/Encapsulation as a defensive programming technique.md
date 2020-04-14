@@ -70,7 +70,7 @@ But if we want to improve on our craft and be more conscious about what we are d
 I hope I have convinced you about the importance of encapsulating your data, and to learn more about different techniques of encapsulation, such as the Design Patterns, in order to create strong and reusable data structures in your code. 🙂
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

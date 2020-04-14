@@ -99,7 +99,7 @@ I definitely recommend you to use this one :wink:
 --------------
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

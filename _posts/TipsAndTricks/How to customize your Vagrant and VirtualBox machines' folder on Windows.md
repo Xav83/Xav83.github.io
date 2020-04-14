@@ -48,4 +48,4 @@ I hope this article will give you the information you were looking for.
 Personally, I needed to write this post so that future me will be able to go back to it whenever he will need to do so 😆
 
 Thank you all for reading this article !
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉

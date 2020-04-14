@@ -111,7 +111,7 @@ I can state this enough, but naming is a difficult thing to do, but an essential
 And magic constants are elements you must name to make your code more expressive, and easier to understand and easier to work with.
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

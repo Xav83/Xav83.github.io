@@ -4,7 +4,7 @@ Hello ! I'm Xavier Jouvenot and here is the third part of a long series on [The 
 In this article, I am going to explain how I solved the third problem in C++, and how I integrated the solution in an Android project.
 
 The objective of this third problem is simple.
-We must calculate the least common multiplier as manu inputs as the user want to give, and we print it to the user.
+We must calculate the least common multiplier for as many inputs as the user want to give, and we print it to the user.
 The solution will be computed in C++ and the interface to get the user input and display the result will be handled with the Android Studio Framework.
 
 I encourage you to read the [previous part of this series](https://10xlearner.com/2020/03/30/the-modern-cpp-challenge-on-mobile-greatest-commont-divisor/), since we are going to continue our program created in it.
@@ -110,7 +110,7 @@ And until my next article, have a splendid day 😉
 ## Interesting links
 
 - [The Modern C++ Challenge](https://amzn.to/2QdYmvA)
-- [Github release](https://github.com/Xav83/TheModernCppChallenge_AndroidStudio/tree/v0.0.2_SecondProblem)
+- [Github release](https://github.com/Xav83/TheModernCppChallenge_AndroidStudio/tree/v0.0.3_ThirdProblem)
 - [std::accumulate documentation](https://en.cppreference.com/w/cpp/algorithm/accumulate)
 - [std::lcm documentation](https://en.cppreference.com/w/cpp/numeric/lcm)
 - [java Collection::stream documentaion](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#stream--)

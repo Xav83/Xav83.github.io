@@ -218,7 +218,7 @@ I know that I have a lot to learn, and I am excited to learn it as much as I enj
 Please, tell me if you have any suggestion or comment about some elements or about the solution I proposed.
 
 Thank you all for reading this article,
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Interesting links
 

@@ -38,7 +38,7 @@ Personally, I needed to write this post so that future me will be able to go bac
 And maybe some of you, awesome people, will need it in the future too 😉
 
 Thank you all for reading this article !
-And until my next article, have an splendid day 😉
+And until my next article, have a splendid day 😉
 
 ## Other resources
 
