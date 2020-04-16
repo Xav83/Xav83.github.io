@@ -3,7 +3,7 @@
 Hello ! I'm Xavier Jouvenot and here is the fourth part of a long series on [The Modern C++ Challenge](https://amzn.to/2QdYmvA).
 In this article, I am going to explain how I solved the fourth problem in C++, and how I integrated the solution in an Android project.
 
-The objective of this third problem is simple.
+The objective of this fourth problem is simple.
 We must calculate the largest prime number that is smaller than a number provided by the user, and then, we print it to the user.
 The solution will be computed in C++ and the interface to get the user input and display the result will be handled with the Android Studio Framework.
 
