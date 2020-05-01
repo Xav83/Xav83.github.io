@@ -14,9 +14,9 @@ List<Integer> my_list = new ArrayList<Integer>(); // create the list
 int [] my_array = my_list.stream().mapToInt(i->i).toArray(); //convert the list into a int[]
 ```
 
-## Explaintation
+## Explanation
 
-If you read this, it may be that you want to understand how the previous solution acheive the goal of transforming the `List<Integer>` into a `int []`, and this is what I am going to try to explain. 🙂 
+If you read this, it may be that you want to understand how the previous solution achieve the goal of transforming the `List<Integer>` into a `int []`, and this is what I am going to try to explain. 🙂 
 
 First of all, we take the filled list and we call the method [stream](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html#stream--), which is going to convert our `List` into a `Stream`. A `Stream` is "A sequence of elements supporting sequential and parallel aggregate operations.", as definied by the documentation. And with this class, we are one step closer from the type we want.
 
