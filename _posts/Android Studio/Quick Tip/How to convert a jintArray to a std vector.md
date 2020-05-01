@@ -17,9 +17,9 @@ std::vector<jint> input( size );
 env->GetIntArrayRegion( arr, jsize{0}, size, &input[0] );
 ```
 
-## Explaintation
+## Explanation
 
-If you read this, it may be that you want to understand how the previous solution acheive the goal of transforming the `List<Integer>` into a `int []`, and this is what I am going to try to explain. 🙂 
+If you read this, it may be that you want to understand how the previous solution achieve the goal of transforming the `jintArray` into a `std::vector<jint>`, and this is what I am going to try to explain. 🙂 
 
 First of all, we get the `jintArray` size by using the JNIEnv method `GetArrayLength`, and store this information in a variable.
 
