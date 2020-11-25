@@ -18,18 +18,18 @@ Create two activities
 
 First of all, let's create two basic activities (you can only create one if you already have a default main activity):
 
-![Creating a new Activity with Android Studio](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android Studio/Create a Basic Activity.png "Creating a new Activity with Android Studio")
+![Creating a new Activity with Android Studio](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android%20Studio/Create%20a%20Basic%20Activity.png "Creating a new Activity with Android Studio")
 
 Then, once we have our two activities, we need to be able to have an event that is going to allow us to trigger the operation we want to do 😉.
 To have the simplest example possible that I have in mind: we are going to use a button click.
 
 We can easily to this step by adding a button to the layout of our first Activity. You can do that by using a drag-and-drop on the layout interface of the activity:
 
-![Add a button to an Activity with Android Studio](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android Studio/Add a button to an Activity.png "Add a button to an Activity with Android Studio")
+![Add a button to an Activity with Android Studio](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android%20Studio/Add%20a%20button%20to%20an%20Activity.png "Add a button to an Activity with Android Studio")
 
 , and by specifying the callback `onClick` either on the layout design interface, or in the code of the layout:
 
-![Specifying a button onclick callback with Android Studio](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android Studio/Button onclick callback.png "Specifying a button onclick callback with Android Studio")
+![Specifying a button onclick callback with Android Studio](https://github.com/Xav83/Xav83.github.io/raw/master/res/Android%20Studio/Button%20onclick%20callback.png "Specifying a button onclick callback with Android Studio")
 
 or
 
