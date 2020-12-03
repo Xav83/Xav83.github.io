@@ -3,7 +3,7 @@
 I'm Xavier Jouvenot and in this small post, we are going to see how to use alternative operators in C++ with Visual Studio.
 
 _Self promotion_: You can find other articles on my [website](www.10xlearner.com) :wink:
-😄
+
 ## Problematic
 
 In C++, as you may already know, there are primary operators available to us since the beginning of C++, as they are inherited from the C language.
