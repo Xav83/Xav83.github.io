@@ -11,7 +11,7 @@ _Self promotion_: You can find other articles on computer science and programmin
 
 ### The Problem
 
-The full version of this problem can be found directly on the [Advent of Code website](https://adventofcode.com/2015/day/1), I will only describe the essence of the problem here:
+The full version of this problem can be found directly on the [Advent of Code website](https://adventofcode.com/2021/day/1), I will only describe the essence of the problem here:
 
 Today, we are looking for the sleigh keys in the ocean, since one of the Elves accidentally sent them into the water.
 So we jump in Santa submarine (because, of course he has one ! 😄) and we go down the ocean looking for the keys.
@@ -183,5 +183,5 @@ And until my next article, have a splendid day 😉
 - [std::array documentation](https://en.cppreference.com/w/cpp/container/array)
 - [std::optional documentation](https://en.cppreference.com/w/cpp/utility/optional)
 - [range-based for loop documentation](https://en.cppreference.com/w/cpp/language/range-for)
-- [Advent of Code - Day 1](https://adventofcode.com/2015/day/1)
+- [Advent of Code - Day 1](https://adventofcode.com/2021/day/1)
 - [10xlearner website](www.10xlearner.com)
