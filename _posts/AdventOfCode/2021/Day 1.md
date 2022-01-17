@@ -174,7 +174,7 @@ If you want to see the programs from end to end, you can go on my [GitHub accoun
 Thank you all for reading this article,
 And until my next article, have a splendid day 😉
 
-![Advent Of Code 2021](https://github.com/Xav83/Xav83.github.io/blob/master/res/Advent%20Of%20Code/2021/Screenshot%20Day%201.png)
+![Advent Of Code 2021](https://raw.githubusercontent.com/Xav83/Xav83.github.io/master/res/Advent%20Of%20Code/2021/Screenshot%20Day%201.png)
 
 ## Interesting links
 
