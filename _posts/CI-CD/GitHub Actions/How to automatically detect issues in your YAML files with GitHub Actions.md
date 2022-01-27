@@ -22,7 +22,7 @@ steps:
     run: yamllint --strict .
 ```
 
-If you have my previous article about ["How to easily detect issues in your YAML files"](https://10xlearner.com/2022/02/02/how-to-easily-detect-issues-in-your-yaml-files), you may already know about about the tool named [yamllint](https://github.com/adrienverge/yamllint). For those who don't know, this is a linter, a software able to analyse YAML files and displays the issues it found in them.
+If you have my previous article about ["How to easily detect issues in your YAML files"](https://10xlearner.com/2022/02/02/how-to-easily-detect-issues-in-your-yaml-files), you may already know about about the tool named [yamllint](https://github.com/adrienverge/yamllint). For those who don't know, this is a linter, a software able to analyze YAML files and displays the issues it found in them.
 
 In the steps above, I start by installing this tool with the [python package manager pip](https://pypi.org/project/pip/). Then, I run `yamllint` at the root of the folder, meaning that it is going to find all the YAML files in repository and analyses them all. Moreover, by using the flag `--strict`, even the warnings found by the tool will be treated as errors, making the check fail, and notifying use that the commit has some issues.
 

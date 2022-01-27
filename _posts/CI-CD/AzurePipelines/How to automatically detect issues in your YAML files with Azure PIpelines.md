@@ -30,6 +30,7 @@ In the steps above, I start by installing this tool with the [python package man
 If you want, you can specify directly the list of the YAML file, instead of letting the tool scan through all the repository recursively. 😉
 
 Finally, it is interesting to notice that those steps can be uses on any environment available in Azure Pipelines.
+I actually made a GitHub repository in which I setup Azure Pipelines to run the steps described before on every environment available. You can take a look [here](https://github.com/Xav83/tutorials/blob/main/.azure-pipelines.yml#L41) as I will update it when new environment will be available on Azure Pipelines 😉
 
 --------------
 
@@ -38,7 +39,7 @@ And until my next article, have a splendid day 😉
 
 ## Interesting links
 
-- [GitHub repository with the actual working code up to date](https://github.com/Xav83/tutorials)
+- [GitHub repository with the actual working code up to date](https://github.com/Xav83/tutorials), and the [Azure Pipelines jobs runned](https://dev.azure.com/xavierjouvenot/10xLearner/_build?definitionId=3&_a=summary)
 - [Azure pipelines Microsoft-hosted agents](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/hosted?view=azure-devops&tabs=yaml#software)
 - [yamllint GitHub repository](https://github.com/adrienverge/yamllint), [documentation](https://yamllint.readthedocs.io/en/stable/) and [python package](https://pypi.org/project/yamllint/)
 - [Learn YAML in 18 mins, by TechWorld with Nana](https://youtu.be/1uFVr15xDGg)

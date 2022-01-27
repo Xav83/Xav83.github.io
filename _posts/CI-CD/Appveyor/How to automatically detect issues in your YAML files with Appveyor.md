@@ -29,6 +29,7 @@ In the steps above, I start by installing this tool with the [python package man
 If you want, you can specify directly the list of the YAML file, instead of letting the tool scan through all the repository recursively. 😉
 
 Finally, it is interesting to notice that those steps can be uses on any environment available in Appveyor.
+I actually made a GitHub repository in which I setup Appveyor to run the steps described before on every environment available. You can take a look [here](https://github.com/Xav83/tutorials/blob/main/.appveyor.yml#L25) as I will update it when new environment will be available on Appveyor 😉
 
 --------------
 
@@ -37,7 +38,7 @@ And until my next article, have a splendid day 😉
 
 ## Interesting links
 
-- [GitHub repository with the actual working code up to date](https://github.com/Xav83/tutorials)
+- [GitHub repository with the actual working code up to date](https://github.com/Xav83/tutorials), and the [Appveyor jobs runned](https://ci.appveyor.com/project/Xav83/tutorials/history)
 - [Appveyor build worker images](https://www.appveyor.com/docs/build-environment/#build-worker-images)
 - [Appveyor documentation](https://www.appveyor.com/docs/build-configuration/)
 - [yamllint GitHub repository](https://github.com/adrienverge/yamllint), [documentation](https://yamllint.readthedocs.io/en/stable/) and [python package](https://pypi.org/project/yamllint/)
