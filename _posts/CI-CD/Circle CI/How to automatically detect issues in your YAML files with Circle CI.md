@@ -1,6 +1,6 @@
-# How to automatically detect issues in your YAML file with GitHub Actions
+# How to automatically detect issues in your YAML file with Circle CI
 
-Hello ! I'm Xavier Jouvenot and in this small post, I am going to explain how to automatically detect issues in your YAML file with GitHub Actions.
+Hello ! I'm Xavier Jouvenot and in this small post, I am going to explain how to automatically detect issues in your YAML file with Circle CI.
 
 _Self promotion_: You can find other articles on computer science and programming on my [website](www.10xlearner.com) 😉
 
@@ -12,14 +12,15 @@ Moreover, having an automatic process to approve the YAML will enhance the quali
 
 ## Solution
 
-The short answer, for the people who don't want to read through the entire article (I know you do that! I do it too 😆) is to insert the following steps in your GitHub Action process:
+The short answer, for the people who don't want to read through the entire article (I know you do that! I do it too 😆) is to insert the following steps in your Circle CI process:
 
 ```yml
-steps:
-  - name: Installs the latest version of Yamllint
-    run: pip install yamllint
-  - name: Runs yamllint on all the yaml file of the repository
-    run: yamllint --strict .
+- run:
+    name: "Installs the latest version of Yamllint"
+    command: "pip install yamllint"
+- run:
+    name: "Runs yamllint on all the yaml file of the repository"
+    command: "yamllint --strict ."
 ```
 
 If you have my previous article about ["How to easily detect issues in your YAML files"](https://10xlearner.com/2022/02/02/how-to-easily-detect-issues-in-your-yaml-files), you may already know about about the tool named [yamllint](https://github.com/adrienverge/yamllint). For those who don't know, this is a linter, a software able to analyze YAML files and displays the issues it found in them.
@@ -28,8 +29,8 @@ In the steps above, I start by installing this tool with the [python package man
 
 If you want, you can specify directly the list of the YAML file, instead of letting the tool scan through all the repository recursively. 😉
 
-Finally, it is interesting to notice that those steps can be uses on any environment available in GitHub Actions.
-I actually made a GitHub repository in which I setup GitHub Actions to run the steps described before on every environment available. You can take a look [here](https://github.com/Xav83/tutorials/blob/main/.github/workflows/yamllint.yml) as I will update it when new environment will be available on GitHub Actions 😉
+Finally, it is interesting to notice that those steps can be uses on any environment available in Circle CI.
+I actually made a GitHub repository in which I setup Circle CI to run the steps described before on every environment available. You can take a look [here](https://github.com/Xav83/tutorials/blob/main/.circleci/config.yml#L24) as I will update it when new environment will be available on Circle CI 😉
 
 --------------
 
@@ -38,8 +39,8 @@ And until my next article, have a splendid day 😉
 
 ## Interesting links
 
-- [GitHub repository with the actual working code up to date](https://github.com/Xav83/tutorials) and the [GitHub Actions workflows runned](https://github.com/Xav83/tutorials/actions)
-- [GitHub Actions build worker images](https://github.com/actions/virtual-environments#available-environments)
+- [GitHub repository with the actual working code up to date](https://github.com/Xav83/tutorials) and the [Circle CI jobs runned](https://app.circleci.com/pipelines/github/Xav83/tutorials?branch=yamllint&filter=all)
+- [Circle CI build worker images](https://circleci.com/docs/2.0/circleci-images/#circleci-base-image)
 - [yamllint GitHub repository](https://github.com/adrienverge/yamllint), [documentation](https://yamllint.readthedocs.io/en/stable/) and [python package](https://pypi.org/project/yamllint/)
 - [Learn YAML in 18 mins, by TechWorld with Nana](https://youtu.be/1uFVr15xDGg)
 - [YAML website and specifications](https://yaml.org/)
