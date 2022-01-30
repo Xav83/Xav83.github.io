@@ -132,5 +132,5 @@ And until my next article, have a splendid day 😉
 - [std::string_view documentation](https://en.cppreference.com/w/cpp/string/basic_string_view)
 - [std::stoi](https://en.cppreference.com/w/cpp/string/basic_string/stol)
 - [range-based for loop documentation](https://en.cppreference.com/w/cpp/language/range-for)
-- [Advent of Code - Day 2](https://adventofcode.com/2021/day/1)
+- [Advent of Code - Day 2](https://adventofcode.com/2021/day/2)
 - [10xlearner website](www.10xlearner.com)

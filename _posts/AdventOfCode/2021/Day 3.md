@@ -267,5 +267,5 @@ And until my next article, have a splendid day 😉
 - [std::remove_if](https://en.cppreference.com/w/cpp/algorithm/remove)
 - [lambda](https://en.cppreference.com/w/cpp/language/lambda)
 - [range-based for loop documentation](https://en.cppreference.com/w/cpp/language/range-for)
-- [Advent of Code - Day 2](https://adventofcode.com/2021/day/1)
+- [Advent of Code - Day 3](https://adventofcode.com/2021/day/3)
 - [10xlearner website](www.10xlearner.com)
