@@ -1,4 +1,4 @@
-# Advent Of Code 2021 - Giant Squid - Puzzle 3
+# Advent Of Code 2021 - Giant Squid - Puzzle 4
 
 Hello ! I'm Xavier Jouvenot and here is the 4th part of a long series on [Advent Of Code 2021](https://adventofcode.com).
 
@@ -179,5 +179,5 @@ And until my next article, have a splendid day 😉
 - [std::remove_if](https://en.cppreference.com/w/cpp/algorithm/remove)
 - [lambda](https://en.cppreference.com/w/cpp/language/lambda)
 - [range-based for loop documentation](https://en.cppreference.com/w/cpp/language/range-for)
-- [Advent of Code - Day 2](https://adventofcode.com/2021/day/1)
+- [Advent of Code - Day 4](https://adventofcode.com/2021/day/4)
 - [10xlearner website](www.10xlearner.com)
