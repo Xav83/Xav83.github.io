@@ -26,7 +26,7 @@ Today, we are helping the elves, going through a forest, to manage their food. W
 6000
 ```
 
-For example, here, we have the list of items for 3 elves (spérated by the empty lines).
+For example, here, we have the list of items for 3 elves (separated by the empty lines).
 
 Our first mission of the year is to find the maximum amount of calories detained by one elf.
 
