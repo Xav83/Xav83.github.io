@@ -85,7 +85,7 @@ And that's basically all we need to solve this problem.
 ## Conclusion
 
 You can note that the solutions written in this post, don't include all the sources to make running programs, but only the interesting part of the sources to solve this problem.
-If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/AdventOfCode/tree/master/2015/Day1), explore the full solution, add comments or ask questions if you want to.
+If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/advent_of_code), explore the full solution, add comments or ask questions if you want to.
 
 Here is the list of std method that we have used, I can't encourage you enough to look at their definitions :
 
