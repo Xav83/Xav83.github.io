@@ -24,6 +24,6 @@ This is the last step, and it will be supplemented with new platforms on which I
 - [ ] Publish on my GitHub Pages
 - [ ] Publish on Dev.to
 - [ ] Publish on CodeNewbie
-- [ ] Publish on Medium
+- [ ] Publish on [Medium](https://medium.com/p/import)
 - [ ] Publish on Reddit
 - [ ] Publish on Hashnode
