@@ -21,27 +21,29 @@ For example:
 ### Solution
 
 ```c++
-#include <algorithm>
-
 auto wrappingPaperArea{0};
-foreachLineIn(fileContent, [&wrappingPaperArea](const auto& line)
-{
-    const auto dimension = makeDimensionFromLine(line);
-    const auto areas = dimension.toAreas();
-    const auto min = std::min_element(std::begin(areas), std::end(areas));
+for (auto it = input.begin(); it != input.end();) {
+  const auto endOfLine = std::find(it, input.end(), '\n');
+
+  const auto dimension =
+    makeDimensionFromLine(std::string_view(it, endOfLine));
+  const auto areas = dimension.toAreas();
+  const auto min = std::ranges::min_element(areas);
     wrappingPaperArea += 2 * areas[0] + 2 * areas[1] + 2 * areas[2] + *min;
-});
+
+  it = std::next(endOfLine);
+}
 ```
 
 This source code shows the main part of the solution. There are 3 parts in this solution.
 
-First, we have to get the information from the input. For that, we use the method `foreachLineIn` and `makeDimensionFromLine` we have created and the structure `Dimension` to store the data. `foreachLineIn` allows us to treat each line of the input, each present, at a time. `makeDimensionFromLine` extracts from the text describing the present's dimension into usable data.
+First, we have to get the information from the input. For that, we use the method `makeDimensionFromLine` we have created and the structure `Dimension` to store the data. `makeDimensionFromLine` extracts from the text describing the present's dimension into usable data.
 
 Then, we can calculate the areas with the dimensions and know which area is the smallest with `Dimension::toAreas()` and `std::min_element`.
 
 And finally, we calculate the amount of wrapping paper we need for the present.
 
-I encourage you to go look at the implementation of the methods used in this sample of code on my [Github](https://github.com/Xav83/AdventOfCode/tree/master/2015/Day2).
+I encourage you to go look at the implementation of the methods used in this sample of code on my [Github](https://github.com/Xav83/advent_of_code).
 
 And, without a surprise this time, the **Part 2** of the problem
 
@@ -49,7 +51,7 @@ And, without a surprise this time, the **Part 2** of the problem
 
 ### Problem
 
-Now, the Santa's elves are running low on the ribbon, and since a ribbon is all the same width, we only have to find the length they need to order. To determine this length, here are the information that we have:
+Now, Santa's elves are running low on the ribbon, and since a ribbon is all the same width, we only have to find the length they need to order. To determine this length, here are the information that we have:
 - the ribbon required to wrap a present is the shortest distance around its sides.
 - Santa's elves also need to make a bow with the ribbon, which is about the cubic feet of volume of the present.
 
@@ -58,23 +60,30 @@ With the same present with dimensions `2x3x4` from the **Part 2**, we have to or
 ### Solution
 
 ```c++
-auto ribbonLength{0};
-foreachLineIn(fileContent, [&ribbonLength](const auto& line)
-{
-    const auto dimension = makeDimensionFromLine(line);
-    const auto max = std::max({dimension.length, dimension.width, dimension.height});
-    ribbonLength += 2 * dimension.length + 2 * dimension.width + 2 * dimension.height - 2 * max + dimension.length * dimension.width * dimension.height;
-});
+PuzzleSolution ribbonLength{0};
+for (auto it = input.begin(); it != input.end();) {
+  const auto endOfLine = std::find(it, input.end(), '\n');
+
+  const auto dimension =
+    makeDimensionFromLine(std::string_view(it, endOfLine));
+  const auto max =
+    std::max({dimension.length, dimension.width, dimension.height});
+  ribbonLength += 2 * dimension.length + 2 * dimension.width +
+                  2 * dimension.height - 2 * max +
+                  dimension.length * dimension.width * dimension.height;
+
+  it = std::next(endOfLine);
+}
 ```
 
 This source code also shows the main part of the solution.
 
-As in the previous part, we get the dimension of a present. Then, instead of finding the two smallest of the dimension of the present to calculate the shortest distance around its sides, we can subtract the max from the calculation. Doing so, we obtain the calculation from above for the ribbon of one present.
+As in the previous part, we get the dimension of a present. Then, instead of finding the two smallest of the dimensions of the present to calculate the shortest distance around its sides, we can subtract the max from the calculation. Doing so, we obtain the calculation from above for the ribbon of one present.
 
 ## Conclusion
 
 You can note that the solutions written in this post, don't include all the sources to make running programs, but only the interesting part of the sources to solve this problem.
-If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/AdventOfCode/tree/master/2015/Day2), explore the full solution, add comments or ask questions if you want to.
+If you want to see the programs from end to end, you can go on my [GitHub account](https://github.com/Xav83/advent_of_code), explore the full solution, add comments or ask questions if you want to.
 
 Here is the list of std method that we have used, I can't encourage you enough to look at their definitions :
 
@@ -82,4 +91,4 @@ Here is the list of std method that we have used, I can't encourage you enough t
 - [std::max](https://en.cppreference.com/w/cpp/algorithm/max)
 
 Thanks for you reading, hope you liked it 😃
-And until next part, have fun learning and growing.
+And until the next part, have fun learning and growing.
