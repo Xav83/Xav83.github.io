@@ -25,5 +25,5 @@ This is the last step, and it will be supplemented with new platforms on which I
 - [ ] Publish on [Dev.to](https://dev.to/dashboard)
 - [ ] Publish on [CodeNewbie](https://community.codenewbie.org/dashboard)
 - [ ] Publish on [Medium](https://medium.com/p/import)
-- [ ] Publish on Reddit
+- [ ] Publish on [Reddit](https://www.reddit.com/user/10xlearner/submit)
 - [ ] Publish on Hashnode
